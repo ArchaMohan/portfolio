@@ -1,0 +1,184 @@
+ *{
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans';
+
+ }
+ body{
+    background-image:url("/Assgnmnt Portfolio/x-wen-qjCHPZbeXCQ-unsplash.jpg");
+    /* background: no-repeat; */
+    background:grey;
+ }
+ .header-container{
+    display:flex;
+    padding: 0;
+    align-items: center;
+    justify-content: space-between;
+     
+ }
+ .portfolio{
+    flex:1;
+    font-size: 40px;
+    margin-left: 10px;
+ }
+ .nav{
+    flex:2;
+    height: 70px;
+    color:black;
+    margin-top: 45px;
+    justify-content: space-between;
+ }
+ .nav a{
+    padding: 10px 29px;
+    text-decoration: none;
+    color:black;
+    font-size:20px ;
+ }
+ .nav a:hover{
+   border-radius: 50px;
+   background-color:rgb(153, 145, 145);
+
+ }
+
+ h2 {
+   margin-top: 40px;
+   /* margin-bottom: 20px; */
+   margin-left: 100px;
+   color: black;
+}
+ .about {
+   display: flex;
+   margin-left: 250px;
+   margin-right: 150px;
+   margin-top: 40px;
+}
+
+.photo {
+   flex:1;
+   margin-left: 50px;
+
+}
+
+.about-text {
+   flex:3;
+   text-align: justify;
+   font-size: larger;
+   margin-left: 50px;
+   margin-right: 70px;
+   margin-top: 40px;
+   line-height: 30px;
+}
+#hi{
+   color:rgb(11, 8, 8);
+   font-weight: 4000px;
+}
+#pic {
+   border-radius: 50%;
+   height: 250px;
+   width: 220px;
+}
+.education {
+   display: flex;
+   margin-top: 20px;
+   margin-left: 80px;
+   margin-right: 100px;
+   /* margin-bottom: -40px; */
+   justify-content: space-between;
+}
+
+.academic_left{
+   padding-top: 20px;
+   padding-bottom: 20px;
+   padding-right: 50px;
+   padding-left: 50px;
+   margin-top: 70px;
+   text-align: center;
+   box-shadow: rgba(14, 14, 23, 0.192) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+   justify-content: space-between;
+   border-radius: 30px;
+   transform: scale(1.02);
+ 
+}
+
+.academic_left:hover{
+   box-shadow: #1906326c 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+
+.education p {
+   line-height: 40px;
+   font-size: 20px;
+}
+.project {
+   display:flex;
+   margin-left: 70px;
+   margin-right: 40px;
+   margin-top: 50px;
+}
+
+#project_left {
+   flex: 3;
+   margin-left: 50px;
+   margin-right: 25px;
+}
+
+#project_right {
+   flex: 2;
+   margin-left: 60px;
+   margin-top: 35px;
+}
+
+#project_left img{
+   height: 250px;
+   width: 250px;
+}
+
+.project li {
+   font-size: 20px;
+}
+
+.project p {
+   line-height: 24px;
+   font-size: 18px;
+   text-align: justify;
+}
+.skill {
+   margin-left: 10%;
+   margin-right: 10%;
+   margin-top: 30px;
+}
+
+.skill p {
+   font-size: 17px;
+   padding-bottom: 5px;
+}
+
+.skillbar {
+ width: 100%;
+ background-color: #ddd;
+}
+
+.skills {
+ text-align: right;
+ padding-top: 5px;
+ padding-bottom: 5px;
+ color: rgb(255, 255, 255);
+}
+
+.python {width: 50%; background-color: black;}
+.html {width: 60%; background-color:   black;}
+.css {width: 50%; background-color:  black;}
+.cpp {width: 70%; background-color:  black;}
+.sql {width: 60%; background-color:   black;}
+
+.contact{
+   font-size: 21px;
+   align-content: center;
+   justify-content: center;
+   margin-left: 35%;
+   margin-top:50px ;
+}
+.contact div{
+margin-bottom: 30px;
+
+}
